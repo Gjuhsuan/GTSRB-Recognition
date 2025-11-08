@@ -1,2 +1,3 @@
-data/
+data/*
+!example_dir/
 test.ipynb
