@@ -1,6 +1,9 @@
 # GTSRB-Recognition
 ## 项目介绍
-* data 目录中是数据集，来自[德国波鸿鲁尔大学的神经信息学研究所](https://benchmark.ini.rub.de/gtsrb_dataset.html)
+* data 目录用于存放数据集，如果要复现，将以下三个文件下载并解压到 data 目录下即可，来自[德国波鸿鲁尔大学的神经信息学研究所](https://benchmark.ini.rub.de/gtsrb_dataset.html)
+    * [训练集](https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Training_Images.zip)
+    * [测试集图片](https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Test_Images.zip)
+    * [测试集标签](https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Test_GT.zip)
 * models 目录中是保存的模型文件
     * `GTSRBNet.pth`是训练好的最终模型
     * `LeNet.pth`是用于对比的基线模型
